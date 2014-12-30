@@ -1,0 +1,4 @@
+C:\Users\Facundo\AndroidStudioProjects\JuegoGdx\android\build\intermediates\classes\debug
+C:\Users\Facundo\AndroidStudioProjects\JuegoGdx\android\build\intermediates\pre-dexed\debug\core-1.0-a588d28a182f5d13495cc71f2610d111340d730f.jar
+C:\Users\Facundo\AndroidStudioProjects\JuegoGdx\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.5.1-622230fe189499e087e6ae1ebe7a3712bdcdc0ce.jar
+C:\Users\Facundo\AndroidStudioProjects\JuegoGdx\android\build\intermediates\pre-dexed\debug\gdx-1.5.1-e0f476d18bbb5944a82ed2572f8b066b1ded2c01.jar
