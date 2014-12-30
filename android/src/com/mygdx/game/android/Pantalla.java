@@ -23,7 +23,7 @@ public class Pantalla implements ApplicationListener{
     public void create() {
 
         pixmap = new Pixmap(200,200,Pixmap.Format.RGB888);
-        pixmap.setColor(Color.GREEN);
+        pixmap.setColor(Color.WHITE);
         pixmap.fillRectangle(0,0,200,200);
 
         texture = new Texture(pixmap);
@@ -40,7 +40,7 @@ public class Pantalla implements ApplicationListener{
 
     @Override
     public void render() {
-        Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT | GL10.GL_STENCIL_BUFFER_BIT);
+       // Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT | GL10.GL_STENCIL_BUFFER_BIT);
 
         batcher.begin();
         batcher.draw(texture,0,0);
