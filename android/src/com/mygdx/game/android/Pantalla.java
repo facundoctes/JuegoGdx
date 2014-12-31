@@ -23,8 +23,13 @@ public class Pantalla implements ApplicationListener{
     public void create() {
 
         pixmap = new Pixmap(200,200,Pixmap.Format.RGB888);
+        //pixmap.setColor(Color.WHITE);
+        //pixmap.fillRectangle(0,0,200,200);
         pixmap.setColor(Color.WHITE);
-        pixmap.fillRectangle(0,0,200,200);
+        pixmap.fillCircle(50,50,10);
+        pixmap.fillCircle(20,20,10);
+        pixmap.fillCircle(10,10,5);
+        pixmap.fillCircle(220,220,10);
 
         texture = new Texture(pixmap);
         texture.bind();
